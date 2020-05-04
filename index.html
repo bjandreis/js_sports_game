@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>The Red Rottweilers vs. The Blue Beagles</h1>
+        <div id="reset-container">
+            <button id="reset-button">RESET MATCH</button><br>
+            NUMBER OF RESETS: <span id="num-resets">0</span>
+        </div>
+        <div class="clear"></div>
+        <div id="team-1-container" class="left">
+            <h2>
+                Team 1: The Red Rottweilers
+            </h2>
+            <div class="goals">
+                SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
+                GOALS: <span id="teamone-numgoals">0</span>
+            </div>
+            <div>
+                <br><button id="teamone-shoot-button">SHOOT</button>
+            </div>
+        </div>
+        <div id="team-2-container" class="right">
+            <h2>
+                Team 2: The Blue Beagles
+            </h2>
+            <div class="goals">
+                SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
+                GOALS: <span id="teamtwo-numgoals">0</span>
+            </div>
+            <div>
+                <br><button id="teamtwo-shoot-button">SHOOT</button>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

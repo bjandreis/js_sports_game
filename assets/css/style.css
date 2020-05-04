@@ -1,0 +1,64 @@
+body {
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Cambria;
+}
+#reset-container button {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 3px;
+}
+#team-1-container button {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 3px;
+}
+#team-2-container button {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 3px;
+}
+.hide {
+    display: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+#reset-container, h1 {
+    text-align: center;
+}
+#reset-container {
+    background-color: #454545;
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+    border-radius: 50px;
+    line-height: 2;
+}
+#team-1-container {
+    background-color: #610000;
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    border-radius: 70px;
+    line-height: 2;
+    text-align: center;
+}
+#team-2-container {
+    background-color: #000bb3;
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    border-radius: 70px;
+    line-height: 2;
+    text-align: center;
+}
